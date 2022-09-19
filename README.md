@@ -1,6 +1,6 @@
 /*# APS-Progama-o-estruturada-*/
 
-#include <stdio.h> #include <stdlib.h> #include <time.h> #include <locale.h>
+#include <stdio.h> #include <stdlib.h> #include <locale.h> #include <time.h>
 
 float soma_vet(float x[], int cont); void num_aleatorio(float x[]);
 
