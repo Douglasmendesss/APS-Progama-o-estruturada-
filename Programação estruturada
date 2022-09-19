@@ -1,7 +1,7 @@
 #include <stdio.h> 
 #include <stdlib.h> 
-#include <time.h> 
 #include <locale.h>
+#include <time.h> 
 
 float soma_vet(float x[], int cont); void num_aleatorio(float x[]);
 float soma_vet (float x[], int cont) { static float soma_auxiliar; 
