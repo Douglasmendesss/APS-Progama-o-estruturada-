@@ -4,11 +4,11 @@
 
 float soma_vet(float x[], int cont); void num_aleatorio(float x[]);
 
-float soma_vet (float x[], int cont) { static float soma_auxiliar; int aux;
+float soma_vet (float x[], int cont) { static float soma_auxiliar; int auxiliar;
 
 if (cont<10 ){
-	aux= x[cont];
-	if (aux%2 == 0){
+	auxiliar= x[cont];
+	if (auxiliar%2 == 0){
 		soma_auxiliar += x[cont]; 
 		cont++;
 		soma_vet(x, cont);
@@ -18,9 +18,9 @@ if (cont<10 ){
 	}
 } else {
 	
-	aux=soma_auxiliar;
+	auxiliar=soma_auxiliar;
 	soma_auxiliar=0;
-	return aux;
+	return auxiliar;
 	
 }
 }
